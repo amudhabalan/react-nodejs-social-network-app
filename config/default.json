@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://amudbalan:amudbalan@devbook-jxlhk.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "secretforjwttokens"
+}
