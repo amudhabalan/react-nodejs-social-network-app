@@ -1,11 +1,20 @@
 # devbook
 
-A Social Network App for Devs written in MERN stack.
+A Social Network App for Developers
 
-MongoDB is used as the database, hosted ay MongoDB Atlas.
+# MongoDB 
+- Used as the database, hosted at MongoDB Atlas
+- Mongoose Javascript library is used for MongoDB object modelling with NodeJS
 
-ExpressJS Framework for Serverside Javascript.
+# ExpressJS Framework 
+- Used as the web application framework for building APIs with NodeJS
+- JsonWebTokens used for Authentication through the API
 
-ReactJS Framework for client side UI rendering.
+# ReactJS 
+- Used for Client side UI rendering of reusable components
+- Redux is used for App level State Management
+- React Hooks used for Component level state management
+- React Router used for routing
 
-NodeJS for running Javascript on the server.
+# NodeJS 
+- Used for Serverside Javascript
