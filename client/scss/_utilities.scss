@@ -1,0 +1,34 @@
+.bg {
+  &-primary {
+    @include set-background-color($primary-color);
+  }
+  &-light {
+    @include set-background-color($light-color);
+    border: #ccc 1px solid;
+  }
+  &-dark {
+    @include set-background-color($dark-color);
+  }
+  &-danger {
+    @include set-background-color($danger-color);
+  }
+  &-success {
+    @include set-background-color($success-color);
+  }
+  &-white {
+    @include set-background-color(#fff);
+    border: #ccc 1px solid;
+  }
+}
+
+.alert {
+  display: block;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+  &-danger {
+    @include set-background-color($danger-color);
+  }
+  &-success {
+    @include set-background-color($success-color);
+  }
+}
