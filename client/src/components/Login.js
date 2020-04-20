@@ -21,7 +21,7 @@ export const Login = ({ login, isAuthenticated }) => {
     login({ email, password });
   };
   if (isAuthenticated) {
-    return <Redirect to="/" />;
+    return <Redirect to="/dashboard" />;
   }
   return (
     <section className="container">
