@@ -15,6 +15,7 @@ A Social Network App for Developers
 - Redux is used for App level State Management
 - React Hooks used for Component level state management
 - React Router used for routing
+- SASS is used for CSS 
 
 # NodeJS 
 - Used for Serverside Javascript
